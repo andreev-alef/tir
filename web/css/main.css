@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24.09.2016, 22:09:29
+    Author     : andreev_af
+*/
+@media all {
+  .root {
+    position: absolute;
+  }
+}
+@media screen {
+  body {
+    margin: 0px;
+  }
+  .root {
+    width: 700px;
+    border: dotted 1px #999;
+    margin: 0px;
+    margin-left: 10mm;
+    margin-top: 7mm;
+    padding: 3mm;
+  }
+  .root > h1 {
+    font-family: 'Oswald';
+    /*font-family: 'Exo2','Open Sans';*/
+  }
+  h1 > small {
+    font-family: 'Exo2', 'Open Sans';
+  }
+  .form-label {
+    font-family: 'Open Sans', 'Exo2 Light';
+    font-size: 20px;
+  }
+  .orderDate {
+    border-radius: 0px !important;
+    width: 120px !important;
+    font-family: 'Open Sans', 'Exo2 Light';
+  }
+  .orderDate > option {
+    text-align: center !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
