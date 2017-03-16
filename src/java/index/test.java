@@ -39,8 +39,8 @@ public class test extends HttpServlet {
             out.println("<title>Servlet test</title>");
             out.println("</head>");
             out.println("<body>");
-            for (int i = 2017; i <= 2030; i++) {
-                out.println("<option>" + i + "</option>");
+            for (int i = 1; i <= 31; i++) {
+                out.println("<option value=\"" + (i) + "\">" + (i) + "</option>");
             }
             out.println("</body>");
             out.println("</html>");

@@ -9,6 +9,7 @@ function getToday() {
 }
 
 $(document).ready(function () {
-    $('#today').click(getToday);
-
+    $('#today').click(function (){
+//        $('#orderMonth')
+    });
 });
