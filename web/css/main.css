@@ -37,7 +37,7 @@ and open the template in the editor.
   }
   .orderDate {
     border-radius: 0px !important;
-    width: 120px !important;
+    width: 130px !important;
     font-family: 'Open Sans', 'Exo2 Light';
   }
   .orderDate > option {

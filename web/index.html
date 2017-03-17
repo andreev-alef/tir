@@ -19,6 +19,7 @@
                         <!--<label class="form-label">Дата заказа&nbsp;</label>-->
                         <span class="input-group-addon form-label">Дата заказа&nbsp;</span>
                         <select class="form-control orderDate" id="orderDay">
+                            <option value="0">— День —</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -52,6 +53,7 @@
                             <option value="31">31</option>
                         </select>
                         <select class="form-control orderDate" id="orderMonth">
+                            <option value="0">— Месяц —</option>
                             <option value="1">Январь</option>
                             <option value="2">Февраль</option>
                             <option value="3">Март</option>
@@ -66,6 +68,7 @@
                             <option value="12">Декабрь</option>
                         </select>
                         <select class="form-control orderDate" id="orderYear">
+                            <option value="0">— Год —</option>
                             <option value="17">2017</option>
                             <option value="18">2018</option>
                             <option value="19">2019</option>
@@ -81,8 +84,36 @@
                             <option value="29">2029</option>
                             <option value="30">2030</option>
                         </select>
+                        <button type="button" class="btn btn-success" id="today">Сегодня</button>
                     </div>
-                    <button type="button" class="btn btn-success" id="today">Сегодня</button>
+                    <hr />
+                    <div class="input-group">
+                        <!--<span class="input-group-addon form-label">Подразделение&nbsp;</span>-->
+                        <select class="form-control unit" id="unit" >
+                            <option value="00">Подразделение</option>
+                            <option value="01">Вахта</option>
+                            <option value="02">Инженер по охране труда</option>
+                            <option value="03">Кафедра дошкольного образования</option>
+                            <option value="04">Кафедра начального и дополнительного образования</option>
+                            <option value="05">Кафедра теории и методики общего образования</option>
+                            <option value="06">Кафедра управления образованием, психологии и педагогики</option>
+                            <option value="07">Народный городской музей образования им. В.К. Демидова</option>
+                            <option value="08">Научно-методический отдел</option>
+                            <option value="09">Отдел информатизации образования</option>
+                            <option value="10">Отдел кадров</option>
+                            <option value="11">Отдел мониторинга качества образования</option>
+                            <option value="12">Проректор по административ-но-хозяйственной части</option>
+                            <option value="13">Проректор по научно-методической работе</option>
+                            <option value="14">Проректор по учебно-методической работе</option>
+                            <option value="15">Проректор по финансово-экономической деятельности</option>
+                            <option value="16">Редакционно-издательский отдел</option>
+                            <option value="17">Ректор (приемная)</option>
+                            <option value="18">Ресурсно-сервисный отдел</option>
+                            <option value="19">Учебный отдел</option>
+                            <option value="20">Ученый секретарь</option>
+                            <option value="21">Юрисконсульт</option>
+                        </select>
+                    </div>
                 </div>
             </form>
         </div>

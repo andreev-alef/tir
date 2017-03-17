@@ -9,7 +9,9 @@ function getToday() {
 }
 
 $(document).ready(function () {
-    $('#today').click(function (){
-//        $('#orderMonth')
+    $('#today').click(function () {
+        $('#orderDay > option[value=13]').attr('selected', 'selected');
+        $('#orderMonth > option[value=10]').attr('selected', 'selected');
+        $('#orderYear > option[value=18]').attr('selected', 'selected');
     });
 });
